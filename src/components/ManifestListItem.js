@@ -134,7 +134,7 @@ export class ManifestListItem extends React.Component {
               </ButtonBase>
             </Grid>
             <Grid item xs={8} sm={4}>
-              <Typography className={ns('manifest-list-item-provider')}>{provider || t('addedFromUrl')}</Typography>
+              <Typography className={ns('manifest-list-item-provider')}>{provider}</Typography>
               <Typography>{t('numItems', { number: size })}</Typography>
             </Grid>
 
